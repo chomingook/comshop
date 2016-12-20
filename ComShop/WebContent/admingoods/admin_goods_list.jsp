@@ -23,9 +23,11 @@
 		<table border="1" align="center" >
 			<tr>
 				<td>번호</td>
+				<td>사진</td>
 				<td>상품이름</td>
 				<td>상품카테고리</td>
 				<td>제조사</td>
+				<td>수량</td>
 				<td>출시일</td>
 			</tr>
 		</table>

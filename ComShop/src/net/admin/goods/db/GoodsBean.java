@@ -1,39 +1,35 @@
 package net.admin.goods.db;
 
-import java.util.Date;
-
 import net.user.db.User;
 
 public class GoodsBean {
 
-	private int 	goodsNo;		//상품넘버
-	private String	goodsID;		//상품코드(번호)
-	private User 	id;				//판매자 아이디
-	private String 	GoodsName;		//상품이름
-	private String 	category;		//카테고리
-	private int 	price;			//가격
-	private int 	quantity;		//수량
-	private String 	manufacturer;	//제조사
-	private Date 	release;		//출시일
-	
-	
+	private int 	GoodsNo;		//상품넘버 1
+	private String	GoodsID;		//상품코드(번호)
+	private String 	Id;				//판매자 아이디
+	private String 	GoodsName;		//상품이름 1
+	private String 	Category;		//카테고리 1
+	private int 	Price;			//가격
+	private int 	Quantity;		//수량 1
+	private String 	Manufacturer;	//제조사 1
+	private String 	Release;		//출시일 1
 	public int getGoodsNo() {
-		return goodsNo;
+		return GoodsNo;
 	}
 	public void setGoodsNo(int goodsNo) {
-		this.goodsNo = goodsNo;
+		GoodsNo = goodsNo;
 	}
 	public String getGoodsID() {
-		return goodsID;
+		return GoodsID;
 	}
 	public void setGoodsID(String goodsID) {
-		this.goodsID = goodsID;
+		GoodsID = goodsID;
 	}
-	public User getId() {
-		return id;
+	public String getId() {
+		return Id;
 	}
-	public void setId(User id) {
-		this.id = id;
+	public void setId(String id) {
+		Id = id;
 	}
 	public String getGoodsName() {
 		return GoodsName;
@@ -42,35 +38,37 @@ public class GoodsBean {
 		GoodsName = goodsName;
 	}
 	public String getCategory() {
-		return category;
+		return Category;
 	}
 	public void setCategory(String category) {
-		this.category = category;
+		Category = category;
 	}
 	public int getPrice() {
-		return price;
+		return Price;
 	}
 	public void setPrice(int price) {
-		this.price = price;
+		Price = price;
 	}
 	public int getQuantity() {
-		return quantity;
+		return Quantity;
 	}
 	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+		Quantity = quantity;
 	}
 	public String getManufacturer() {
-		return manufacturer;
+		return Manufacturer;
 	}
 	public void setManufacturer(String manufacturer) {
-		this.manufacturer = manufacturer;
+		Manufacturer = manufacturer;
 	}
-	public Date getRelease() {
-		return release;
+	public String getRelease() {
+		return Release;
 	}
-	public void setRelease(Date release) {
-		this.release = release;
+	public void setRelease(String release) {
+		Release = release;
 	}
+	
+	
 	
 	
 }
